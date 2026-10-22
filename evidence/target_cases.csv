@@ -1,0 +1,7 @@
+case_id,applicant_name,email,branch_code,submitted_date,case_status
+S001,Applicant 01,a01@example.invalid,101,2026-09-01,READY_FOR_REVIEW
+S002,Applicant 02,a02@example.invalid,102,2026-09-01,READY_FOR_REVIEW
+S003,Applicant 03,a03@example.invalid,101,2026-09-02,READY_FOR_REVIEW
+S004,Applicant 04,a04@example.invalid,102,2026-09-02,READY_FOR_REVIEW
+S005,Applicant 05,a05@example.invalid,101,2026-09-03,READY_FOR_REVIEW
+S006,Applicant 06,a06@example.invalid,102,2026-09-03,READY_FOR_REVIEW

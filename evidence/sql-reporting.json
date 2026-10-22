@@ -1,0 +1,57 @@
+[
+  [
+    {
+      "source_count": 12,
+      "accepted": 6,
+      "exceptions": 6,
+      "acceptance_percent": 50.0
+    }
+  ],
+  [
+    {
+      "outcome": "ACCEPTED",
+      "requests": 6
+    },
+    {
+      "outcome": "CONSENT_MISSING",
+      "requests": 1
+    },
+    {
+      "outcome": "DUPLICATE_EMAIL",
+      "requests": 1
+    },
+    {
+      "outcome": "INVALID_DATE",
+      "requests": 1
+    },
+    {
+      "outcome": "INVALID_EMAIL",
+      "requests": 1
+    },
+    {
+      "outcome": "MISSING_NAME",
+      "requests": 1
+    },
+    {
+      "outcome": "UNKNOWN_BRANCH",
+      "requests": 1
+    }
+  ],
+  [
+    {
+      "branch": "Example Central",
+      "requests": 6,
+      "accepted": 3
+    },
+    {
+      "branch": "Example Riverside",
+      "requests": 5,
+      "accepted": 3
+    },
+    {
+      "branch": "Unmapped branch",
+      "requests": 1,
+      "accepted": 0
+    }
+  ]
+]

@@ -1,0 +1,11 @@
+test_id,requirement,scenario,expected,scope
+UAT-01,BA-01,Full fixture,12 = 6 + 6,Automated data check
+UAT-02,BA-02,S011 blank name,MISSING_NAME,Automated data check
+UAT-03,BA-02,S010 malformed email,INVALID_EMAIL,Automated data check
+UAT-04,BA-03,S008 unknown branch,UNKNOWN_BRANCH,Automated data check
+UAT-05,BA-04,S009 consent N,CONSENT_MISSING,Automated data check
+UAT-06,BA-05,S007 email case/spaces,DUPLICATE_EMAIL; retain S001,Unit test
+UAT-07,BA-06,S012 invalid date,INVALID_DATE,Automated data check
+UAT-08,BA-01,Duplicate source ID,Batch fails,Unit test
+UAT-09,BA-07,Dashboard counts,12 requests including invalid date,Power BI pending
+UAT-10,BA-08,Release review,NO-GO; no approval assumed,Human review pending

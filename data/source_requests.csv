@@ -1,0 +1,13 @@
+source_id,applicant_name,email,branch_code,consent,submitted_date
+S001,Applicant 01,a01@example.invalid,101,Y,2026-09-01
+S002,Applicant 02,a02@example.invalid,102,Y,2026-09-01
+S003,Applicant 03,a03@example.invalid,101,Y,2026-09-02
+S004,Applicant 04,a04@example.invalid,102,Y,2026-09-02
+S005,Applicant 05,a05@example.invalid,101,Y,2026-09-03
+S006,Applicant 06,a06@example.invalid,102,Y,2026-09-03
+S007,Applicant 07, A01@example.invalid ,101,Y,2026-09-04
+S008,Applicant 08,a08@example.invalid,999,Y,2026-09-04
+S009,Applicant 09,a09@example.invalid,101,N,2026-09-05
+S010,Applicant 10,not-an-email,102,Y,2026-09-05
+S011,,a11@example.invalid,101,Y,2026-09-06
+S012,Applicant 12,a12@example.invalid,102,Y,2026-99-40

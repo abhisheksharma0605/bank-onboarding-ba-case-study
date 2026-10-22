@@ -1,0 +1,10 @@
+// Create each measure separately on FactRequests.
+Requests = COUNTROWS(FactRequests)
+
+Accepted Requests = CALCULATE([Requests], KEEPFILTERS(FactRequests[outcome] = "ACCEPTED"))
+
+Exception Requests = CALCULATE([Requests], KEEPFILTERS(FactRequests[outcome] <> "ACCEPTED"))
+
+Acceptance Rate = DIVIDE([Accepted Requests], [Requests], 0)
+
+Invalid Date Requests = CALCULATE([Requests], KEEPFILTERS(FactRequests[outcome] = "INVALID_DATE"))
